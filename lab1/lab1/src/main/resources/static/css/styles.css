@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
+
+body{
+    font: 18px 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.team-header h1,
+.team-list{
+    text-align: center;
+}
+
+.team-header h1{
+    font-size: 40px;
+}
+
+.team-list{
+    list-style: none;
+    padding: 0;
+}
+
+.team-list a{
+    font-size: 30px;
+    color: #fff;
+    width: 130px;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    background: #444;
+}
+
+.team-list a:hover{
+    background: #666;
+}
+
+.user-photo{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
